@@ -1,0 +1,6 @@
+name = input('Enter your name: ')
+age = input('Enter your age: ')
+city = input('Enter your city: ')
+print('Hello %s! Your age %s, you are from %s' % (name, age, city))
+print('Hello {}! Your age {}, you are from {}'.format(name, age, city))
+print(f'Hello {name}! Your age {age}, you are from {city}')
